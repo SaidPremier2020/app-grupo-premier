@@ -11,7 +11,7 @@ if 'pantalla_actual' not in st.session_state:
 # ---------------------------------------------------------
 st.set_page_config(page_title="GRUPO PREMIER | Catálogo", page_icon="🏢", layout="centered")
 
-GOOGLE_API_KEY = "AQ.Ab8RN6Jmm0DppGdLbEveLJBtR0Hp9ghzs0aLPaHlapqotjpAWw"
+GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # ---------------------------------------------------------
