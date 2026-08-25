@@ -20,10 +20,7 @@ genai.configure(api_key=GOOGLE_API_KEY)
 if 'autenticado' not in st.session_state:
     st.session_state.autenticado = False
 
-USUARIOS_PERMITIDOS = {
-    "said.avila@vpremier.com": "Premier2026*",
-    "h.torres@vpremier.com": "Htorres2026",
-}
+USUARIOS_PERMITIDOS = st.secrets["usuarios"]
 
 if not st.session_state.autenticado:
     st.title("🔒 Acceso Restringido")
