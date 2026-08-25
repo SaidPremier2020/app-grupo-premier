@@ -21,7 +21,8 @@ if 'autenticado' not in st.session_state:
     st.session_state.autenticado = False
 
 USUARIOS_PERMITIDOS = {
-    "said.avila@vpremier.com": "Premier2026*",
+    "said.avila@vpremier.com": "Premier2026*"
+    "h.torres@vpremier.com": "Htorres2026",
 }
 
 if not st.session_state.autenticado:
