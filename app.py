@@ -56,8 +56,8 @@ if st.session_state.pantalla_actual == 'inicio':
     except FileNotFoundError:
         st.warning("⚠️ Logotipo no encontrado. Guarda tu logo como 'logo_premier.png' en la misma carpeta.")
 
-    st.title("Bienvenido a GRUPO PREMIER")
-    st.markdown("Somos líderes en brindar soluciones de excelencia. Explora nuestro catálogo de servicios.")
+    st.title("Bienvenido al Catálogo de Proveedores de Grupo Premier")
+    st.markdown("Recuerda que aquí encontrarás cualquier servicio que nuestra empresa brinda a nuestros clientes.")
     st.divider()
 
     st.header("Nuestros Servicios")
